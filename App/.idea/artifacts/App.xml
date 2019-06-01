@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="App">
+    <output-path>$USER_HOME$/TCL/apps</output-path>
+    <root id="archive" name="App.jar">
+      <element id="module-output" name="App" />
+    </root>
+  </artifact>
+</component>

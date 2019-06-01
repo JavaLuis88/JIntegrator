@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+
+    <databases>
+        <database>
+            <databasename>
+                DB1
+            </databasename>
+            <databasedriver>
+                org.mariadb.jdbc.Driver
+            </databasedriver>
+            <databaseurl>
+                jdbc:mariadb://localhost:3306/tcl
+            </databaseurl>
+
+
+            <databaseuser>
+               tcl
+            </databaseuser>
+
+
+            <databasepassword>
+                ccent
+            </databasepassword>
+
+        </database>
+
+
+        <database>
+            <databasename>
+                DB2
+            </databasename>
+            <databasedriver>
+                org.mariadb.jdbc.Driver
+            </databasedriver>
+            <databaseurl>
+                jdbc:mariadb://localhost:3306/tk
+            </databaseurl>
+
+
+
+            <databaseuser>
+                tk
+            </databaseuser>
+
+
+            <databasepassword>
+                ccna
+            </databasepassword>
+
+        </database>
+
+    </databases>
+    <apps>
+
+        <app>
+
+            <appname>app</appname>
+            <appversion>1.0</appversion>
+            <appclass>TCL.TT</appclass>
+        </app>
+
+        <app>
+
+            <appname>app2</appname>
+            <appversion>1.7</appversion>
+            <appclass>TCL.TK</appclass>
+        </app>
+
+
+    </apps>
+</config>
+
